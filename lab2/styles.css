@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(218, 218, 218);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: large;
+}
+
+img {
+  width: 200px;
+  height: 350px;
+  box-shadow: 4px 4px 14px rgb(0, 85, 255);
+}
+
+.heading h1 {
+  color: blue;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+article {
+  margin: 0 50px 0 50px;
+}
+
+p {
+  font-size: large;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+}
+
+.links {
+  margin: 0 0 0 30px;
+}
+
+.links a {
+  font-size: larger;
+  color: rgb(0, 85, 255);
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+.text {
+  width: 40vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0 30px 0;
+  background-color: rgb(197, 239, 255);
+  box-shadow: 4px 4px 14px rgb(0, 85, 255);
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text a {
+  color: rgb(0, 85, 255);
+  text-decoration: none;
+}
+
+.text a:hover {
+  color: black;
+  transition: 0.5s;
+}
