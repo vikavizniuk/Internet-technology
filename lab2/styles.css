@@ -35,7 +35,7 @@ img {
   margin: 20px 0 20px 0;
 }
 
-article {
+.article {
   margin: 0 50px 0 50px;
 }
 
@@ -46,6 +46,7 @@ p {
   font-weight: 200;
   font-style: normal;
   color: black;
+  text-indent: 20px;
 }
 
 .links {
@@ -73,11 +74,13 @@ p {
   background-color: rgb(197, 239, 255);
   box-shadow: 4px 4px 14px rgb(0, 85, 255);
 }
+
 .contacts {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .text a {
   color: rgb(0, 85, 255);
   text-decoration: none;
