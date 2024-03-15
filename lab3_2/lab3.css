@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+tr, td{
+    border: 3px solid black;
+    padding: 50px 30px 50px 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 50vh;
+}
