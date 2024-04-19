@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabica</title>
+    <style>
+  
+      body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        font-size: large;
+      }
+  
+      .greyback {
+        background-color: rgb(232, 232, 232);
+        width: auto;
+        height: 138px;
+        display: flex;
+        justify-content: end;
+        
+      }
+      .greyback img{
+        width: 50%;
+        height: 70%;
+        position: absolute;
+        z-index: -1;
+        border: 3px solid black;
+        
+      }
+  
+      .main-title {
+        width: auto;
+        height: 25vw;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+      }
+  
+      .yellowback {
+        background-color: rgb(255, 183, 0);
+        grid-area: 4/1/6/5;
+      }
+  
+      .main-title p {
+        margin: 0;
+        grid-area: 3/1;
+        font-family: "Roboto", sans-serif;
+        font-size: 4vw;
+        width: 40vw;
+        padding: 30px 0 0 40px;
+      }
+  
+      .vstup {
+        padding: 70px 25% 30px 25%;
+      }
+  
+      .vstup p {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  
+  <body>
+  <div class="greyback"><img src="./zerna.jpeg" alt=""></div>
+  <div class="main-title">
+    <div class="yellowback"></div>
+    <p><strong>Арабіка - </strong>букет ароматів і смаків</p>
+  </div>
+  <div class="vstup">
+    <p>
+      Коли говорять про аромат кави  ―  
+      з нотами квітів та фруктів, з відтінками шоколаду та спецій, йдеться саме про арабіку. 
+      Те ж і з характеристиками смаку: м'який, солодкуватий або з кислинкою ― це про арабіку. У ній удвічі менше, 
+      ніж у робусті, хлорогенової кислоти, 
+      та й кофеїну теж, тому гіркоти практично немає.
+       Так що в битві смаку та аромату кави арабіка перемагає зі значною перевагою.
+    </p>
+  </div>
+  </body>
+</html>
